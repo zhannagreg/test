@@ -1,0 +1,23 @@
+.slides {
+
+  background: $slides-bg;
+}
+.slides_container {
+  position: relative;
+  width: 1270px;
+  margin: 0 auto;
+  height: 400px;
+}
+.slides__items img {
+  height: 400px
+}
+.slides__prev {
+  position: absolute;
+  left: 144px;
+  top: 185px;
+}
+.slides__next {
+  position: absolute;
+  right: 170px;
+  top: 185px;
+}

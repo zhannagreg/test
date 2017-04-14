@@ -1,0 +1,48 @@
+.main-nav {
+  background: $main-nav-bg;
+  color: white;
+}
+.main-nav .container {
+  @include container;
+  @include clearfix;
+  padding: 0;
+}
+.main-nav__list {
+  margin: 0;
+  padding: 20px 34px;
+  font-size: 0;
+}
+.main-nav__links {
+  text-decoration: none;
+  color: white;
+}
+.main-nav__links:hover {
+  border-bottom: 2px solid white;
+}
+.main-nav__items {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  padding-right: 25px;
+  margin-right: 20px;
+  list-style: none;
+  font-size: 30px;
+  line-height: 36px;
+}
+.main-nav__items::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  clear: both;
+  content: "";
+  height: 36px;
+  width: 3px;
+  background: white;
+}
+.main-nav__items:last-child::after {
+  display: none;
+}
+.main-nav__items:last-child {
+  margin: 0;
+  padding: 0;
+}

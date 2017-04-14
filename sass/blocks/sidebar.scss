@@ -1,0 +1,58 @@
+.sidebar {
+float: left;
+width: 200px;
+}
+.sidebar__main-menu {
+  margin: 0;
+  margin-bottom: 105px;
+  padding: 0;
+  font-size: 0;
+  color: $body-color;
+  list-style: none;
+}
+.sidebar__menu-items {
+  font-size: 18px;
+  line-height: 30px;
+
+}
+.sidebar__menu-links {
+  color: $body-color;
+  text-decoration: none;
+}
+.sidebar__menu-items--active {
+  border-bottom: 1px solid $body-color;
+}
+.sidebar__sub-menu {
+  position: absolute;
+  right: 10px;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: disc;
+}
+
+.sidebar__sub-menu-items {
+  font-size: 14px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.sidebar__sub-menu-items--active {
+  color: black;
+  border-bottom: 1px solid black;
+}
+.active {
+  position: relative;
+  padding-bottom: 90px;
+}
+.sidebar__price-icon {
+  display: inline-block;
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+}
